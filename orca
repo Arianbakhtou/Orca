@@ -81,7 +81,6 @@
        "outbounds": [
          "auto",
          "direct",
-         "1.hysteria2-nodm",
          "1.hysteria2-ech"
        ],
        "tag": "proxy",
@@ -90,7 +89,6 @@
      {
        "interval": "10m",
        "outbounds": [
-         "1.hysteria2-nodm",
          "1.hysteria2-ech"
        ],
        "tag": "auto",
@@ -109,24 +107,6 @@
      {
        "tag": "block",
        "type": "block"
-     },
-     {
-       "obfs": {
-         "password": "hdjjdyyw744hf54",
-         "type": "salamander"
-       },
-       "password": "JzvJW1ZrCj",
-       "server": "37.220.86.125",
-       "server_port": 49196,
-       "tag": "1.hysteria2-nodm",
-       "tls": {
-         "alpn": [
-           "h3"
-         ],
-         "enabled": true,
-         "insecure": true
-       },
-       "type": "hysteria2"
      },
      {
        "obfs": {
